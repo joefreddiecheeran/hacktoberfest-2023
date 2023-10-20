@@ -38,7 +38,7 @@ public class Welcome {
             public void actionPerformed(ActionEvent e) {
                 String s1=t1.getText();
                 String s2=t2.getText();
-                if(s1.equals("Joe") && s2.equals("1018") || (s1.equals("Alwin") && s2.equals("1050"))){
+                if(s1.equals("Admin") && s2.equals("Admin")){
                     JOptionPane.showMessageDialog(f,"Welcome "+s1+ ". You are being redirected to the Home Page!");
                     f.dispose();
                     Rent reg = new Rent();
