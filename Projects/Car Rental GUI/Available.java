@@ -17,7 +17,7 @@ public class Available {
         l0.setFont(new Font("", Font.BOLD,16));
         l0.setBounds(50, 10, 1000, 30);
 
-        ImageIcon img1 = new ImageIcon("C:\\Users\\joefr\\OneDrive\\Desktop\\Car Rental GUI\\src\\cars\\Thar.jpg");
+        ImageIcon img1 = new ImageIcon("Projects/Car Rental GUI/cars/Thar.jpg");
         JLabel il1 = new JLabel(img1);
         il1.setBounds(10, 50, 400,200);
         f.add(il1);
@@ -33,7 +33,7 @@ public class Available {
             }
         });
 
-        ImageIcon img2 = new ImageIcon("C:\\Users\\joefr\\OneDrive\\Desktop\\Car Rental GUI\\src\\cars\\Amaze.jpg");
+        ImageIcon img2 = new ImageIcon("Projects/Car Rental GUI/cars/Amaze.jpg");
         JLabel il2 = new JLabel(img2);
         il2.setBounds(420, 50, 400,200);
         f.add(il2);
@@ -49,7 +49,7 @@ public class Available {
             }
         });
 
-        ImageIcon img3 = new ImageIcon("C:\\Users\\joefr\\OneDrive\\Desktop\\Car Rental GUI\\src\\cars\\Nexon.jpg");
+        ImageIcon img3 = new ImageIcon("Projects/Car Rental GUI/cars/Nexon.jpg");
         JLabel il3 = new JLabel(img3);
         il3.setBounds(10, 300, 400,200);
         f.add(il3);
@@ -65,7 +65,7 @@ public class Available {
             }
         });
 
-        ImageIcon img4 = new ImageIcon("C:\\Users\\joefr\\OneDrive\\Desktop\\Car Rental GUI\\src\\cars\\Ertiga.jpg");
+        ImageIcon img4 = new ImageIcon("Projects/Car Rental GUI/cars/Ertiga.jpg");
         JLabel il4 = new JLabel(img4);
         il4.setBounds(420, 300, 400,200);
         f.add(il4);
